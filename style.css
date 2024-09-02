@@ -1,0 +1,95 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.text-blue {
+  color: #428cd4;
+}
+.Join-our-newsletter-btn {
+  font-size: 17.5px;
+  font-weight: 500;
+  border-radius: 6px;
+  background: linear-gradient(115deg, #428cd4 0%, #004e9a 90%);
+}
+.background {
+  background: linear-gradient(115deg, #428cd4 0%, #004e9a 90%);
+}
+.logo {
+  width: 27%;
+}
+.font-size {
+  font-size: 1.2rem;
+}
+.about_us_text {
+  font-size: 1.3rem;
+}
+.black-part_text {
+  font-size: 2.5rem;
+}
+.main {
+  padding-bottom: 19.2vw;
+  justify-content: center;
+  background-image: url("img/blob.jpg");
+  background-size: 110vw 40vw;
+  background-repeat: no-repeat;
+}
+.main-section {
+  margin-top: 9vw;
+}
+.border-radius {
+  border-radius: 15px;
+}
+.custom-border {
+  border: none;
+}
+.footer-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.contact-info {
+  text-align: right; /* Align this specific paragraph to the right */
+}
+.footer-font-size {
+  font-size: 0.75rem;
+}
+.grey-color {
+  color: rgb(77, 87, 97);
+}
+.main-headings {
+  font-weight: bold;
+}
+.service_card_heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+/* Ensure equal height for cards */
+.service-cards {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Make card-body content fill the remaining space */
+.service-cards-body {
+  flex: 1;
+}
+.link {
+  cursor: pointer;
+}
+.link:hover {
+  color: black;
+  text-decoration: none;
+}
+.services_btn:hover {
+  color: black;
+}
+
+@media (max-width: 500px) {
+  .about_us_text {
+    font-size: 15px;
+  }
+  .black-part_text {
+    font-size: 20px;
+  }
+}
